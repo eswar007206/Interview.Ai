@@ -106,7 +106,7 @@ body {
 }
 
 #logoo #logo {
-  background-image: url("../assets/logo1.jpg");
+  background-image: url("logo1.jpg");
   width: 130px;
   height: 45px; /* Adjust height for better proportions */
   background-size: contain; /* Ensures the entire image fits */
@@ -136,7 +136,7 @@ body {
 }
 
 #content {
-  background-image: url("../assets/pngwing.com.png");
+  background-image: url("pngwing.com.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
