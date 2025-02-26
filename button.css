@@ -1,0 +1,34 @@
+.custom-button {
+  background-color: rgb(6, 175, 6);
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-button:hover {
+  background-color: rgb(5, 150, 5);
+  transform: scale(1.05);
+}
+
+.custom-button:active {
+  background-color: rgb(4, 130, 4);
+  transform: scale(0.98);
+}
+
+.custom-button:disabled {
+  background-color: rgb(150, 150, 150); /* Gray color for disabled state */
+  color: white;
+  cursor: not-allowed; /* Show a not-allowed cursor */
+  opacity: 0.6; /* Reduce opacity for a faded look */
+  transform: none; /* Prevent scaling effects */
+}
+
+.custom-button:disabled:hover,
+.custom-button:disabled:active {
+  background-color: rgb(150, 150, 150); /* Ensure the color remains the same */
+  transform: none; /* Prevent any transformations */
+}

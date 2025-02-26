@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Details</title>
+    <link rel="stylesheet" href="interview_details.css" />
+    <link rel="stylesheet" href="button.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Enter the job description details</h2>
+
+      <div class="form-group">
+        <input
+          type="text"
+          id="skills"
+          class="input-box"
+          placeholder="Enter your skills separated by commas"
+        />
+      </div>
+
+      <br />
+
+      <div class="form-group">
+        <input
+          type="text"
+          class="input-box"
+          id="role"
+          placeholder="Role/Position"
+        />
+        <input
+          type="number"
+          min="0"
+          class="input-box"
+          id="experience"
+          placeholder="experience"
+        />
+      </div>
+      <br />
+      <button class="custom-button" id="start-interview">
+        Start Interview
+      </button>
+    </div>
+    <script src="interview_details.js"></script>
+  </body>
+</html>

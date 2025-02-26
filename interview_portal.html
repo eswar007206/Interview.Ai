@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interview.Ai</title>
+    <link rel="stylesheet" href="interview_portal.css" />
+    <link rel="stylesheet" href="button.css" />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top-container">
+      <div class="question-num" id="question-num">0/10</div>
+      <div class="content question-ai-container">
+        <div class="ai">
+          <div class="heading">AI</div>
+          <video src="" id="robot-ai" autoplay></video>
+        </div>
+        <div class="question">
+          <div class="heading">Question</div>
+          <div class="question-text" id="question-text">
+            Questions will appear here....
+          </div>
+        </div>
+      </div>
+      <div class="content you-timer-container">
+        <div class="you">
+          <div class="heading">You</div>
+          <video id="video" autoplay></video>
+        </div>
+        <div class="timer">
+          <div class="heading">Timer</div>
+          <div class="timer-text" id="timer">00:00</div>
+        </div>
+      </div>
+      <div class="content answer-container">
+        <div class="heading">Your Answer</div>
+        <div class="answer" id="answer"></div>
+      </div>
+    </div>
+    <div class="bottom-container">
+      <button class="custom-button next" id="next">Next Question</button>
+      <button class="custom-button" id="start-speaking">Start Answering</button>
+      <button class="custom-button" disabled="true" id="submit">
+        Get Feedback
+      </button>
+      <!-- <button class="custom-button end">End Interview</button> -->
+    </div>
+    <script src="interview_portal.js" type="module"></script>
+  </body>
+</html>
